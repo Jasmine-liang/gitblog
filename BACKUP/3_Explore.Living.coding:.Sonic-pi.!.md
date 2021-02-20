@@ -9,3 +9,8 @@ https://sonic-pi.net/
 ## (Solved)Installation Issue in Archlinux distro
 Unable to start on Manjaro Linux · Issue #2341 · sonic-pi-net/sonic-pi
 
+
+
+---
+
+And it's totally OK without previous music notaion stuffs:)
