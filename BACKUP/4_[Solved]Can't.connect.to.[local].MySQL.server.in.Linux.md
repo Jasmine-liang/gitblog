@@ -7,3 +7,7 @@ I know there are two ways of connecting the **mysqld** server in Unix, So I quck
 [資料庫中mysql.sock不存在問題，Can 't connect to local MySQL server through socket '/tmp/mysql.sock '(2) " - IT閱讀](https://www.itread01.com/content/1541103967.html)
 Then use `systemctl start mysqld.service` to start the server.    
 Use `systemctl status mysqld.service` to check the status of the server.
+
+---
+
+![mysql](https://user-images.githubusercontent.com/63624438/109262911-4cb1f000-783d-11eb-83ca-33d678d8d909.png)
