@@ -16,6 +16,13 @@ Use `systemctl status mysqld.service` to check the status of the server.
 ---
 
 ![mysql](https://user-images.githubusercontent.com/63624438/110234043-4b7e7280-7f63-11eb-9178-762cb7aa07dd.png)
+<br/>
 Solution: 
 `ln -s /var/lib/mysql/mysql.sock /run/mysqld/mysqld.sock
 `
+<br/>
+Start MySql:
+```bash
+  systemctl start mysqld.service
+  mysql -u root -p
+```
