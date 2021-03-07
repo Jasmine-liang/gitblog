@@ -11,3 +11,11 @@ Use `systemctl status mysqld.service` to check the status of the server.
 ---
 
 ![mysql](https://user-images.githubusercontent.com/63624438/109262911-4cb1f000-783d-11eb-83ca-33d678d8d909.png)
+
+
+---
+
+![mysql](https://user-images.githubusercontent.com/63624438/110234043-4b7e7280-7f63-11eb-9178-762cb7aa07dd.png)
+Solution: 
+`ln -s /var/lib/mysql/mysql.sock /run/mysqld/mysqld.sock
+`
