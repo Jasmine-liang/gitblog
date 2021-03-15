@@ -1,12 +1,13 @@
 ## Gitblog
 My personal blog using issues and GitHub Actions
 ## Lastest
+- [Learn Android Basis using Kotlin now](https://github.com/Jasmine-liang/gitblog/issues/7)--2021-03-15
 - [Switch Java Version on Archlinux](https://github.com/Jasmine-liang/gitblog/issues/6)--2021-03-07
 - [[Solved]Unable to start kafka with zookeeper (kafka.common.InconsistentClusterIdException)](https://github.com/Jasmine-liang/gitblog/issues/5)--2021-03-07
 - [[Solved]Can't connect to [local] MySQL server in Linux](https://github.com/Jasmine-liang/gitblog/issues/4)--2021-02-26
 - [Explore Living coding: Sonic-pi !](https://github.com/Jasmine-liang/gitblog/issues/3)--2021-02-20
-- [因使用一个工具失败而探索到的关于隐私保护的问题](https://github.com/Jasmine-liang/gitblog/issues/2)--2020-12-11
 ## Explore
+- [Learn Android Basis using Kotlin now](https://github.com/Jasmine-liang/gitblog/issues/7)--2021-03-15
 - [Explore Living coding: Sonic-pi !](https://github.com/Jasmine-liang/gitblog/issues/3)--2021-02-20
 - [因使用一个工具失败而探索到的关于隐私保护的问题](https://github.com/Jasmine-liang/gitblog/issues/2)--2020-12-11
 ## privacy
