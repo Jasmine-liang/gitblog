@@ -22,11 +22,12 @@ Notes:
 - 
 ![intent](https://user-images.githubusercontent.com/63624438/111322050-7a9f8d00-86a3-11eb-914e-38315006e15f.png)
 -  function with no name that can immediately be used as an expression—is a really useful concept called a lambda expression
-### lambda
+## lambda
 ```kotlin
 costOfServiceEditText.setOnKeyListener { view, keyCode, event -> handleKeyEvent(view, keyCode) }
 ```
 When we look up `OnKeyListener,` the abstract method has the following parameters o`nKey(View v, int keyCode, KeyEvent event)` and returns a `Boolean`. Because of SAM conversions in Kotlin, we can pass in a lambda to `setOnKeyListener()`. Just be sure the lambda has the function type `(View, Int, KeyEvent) -> Boolean`.        
+
 The function body consists of `handleKeyEvent(view, keyCode)`which uses the parameters passed in and returns a `Boolean`
 ## Lifecycle
 when an app is started and `onStart()` is called, the app becomes visible on the screen. When the app is resumed and `onResume()` is called, the app gains the user focus, that is, the user can interact with the app. The part of the lifecycle in which the app is fully on-screen and has user focus is called the interactive lifecycle.
