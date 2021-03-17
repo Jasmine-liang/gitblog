@@ -18,7 +18,7 @@ Ok I push my finished code in here: [Jasmine-liang/Android-basis](https://github
 
 ---
 
-Notes:
+Notes about intent and lifecycle:
 - 
 ![intent](https://user-images.githubusercontent.com/63624438/111322050-7a9f8d00-86a3-11eb-914e-38315006e15f.png)
 -  function with no name that can immediately be used as an expression—is a really useful concept called a lambda expression
