@@ -38,3 +38,14 @@ The difference between focus and visibility is important because it is possible 
 - A `Bundle` is a collection of key-value pairs, where the keys are always strings
 -
 Notice that `onCreate()` gets a Bundle each time it is called. When your activity is restarted due to a process shut down, the bundle that you saved is passed to `onCreate()`. If your activity was starting fresh, this Bundle in `onCreate() `is null. So if the bundle is not null, you know you're "re-creating" the activity from a previously known point.
+
+---
+
+Notes about Fragement:        
+Ref: 
+- [Fragments and the Navigation Component](https://developer.android.com/codelabs/basic-android-kotlin-training-fragments-navigation-component?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-kotlin-unit-3-pathway-2%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-training-fragments-navigation-component#2)
+-[Pass data between destinations  |  Android Developers](https://developer.android.com/guide/navigation/navigation-pass-data) 
+
+
+😃Also I just finished the example app called Word App: [Word App](https://github.com/Jasmine-liang/Android-basis#word-app)
+😆 Now moving to **_Learn how to use Android Jetpack Architecture components_**  ->  Unscramble App 
