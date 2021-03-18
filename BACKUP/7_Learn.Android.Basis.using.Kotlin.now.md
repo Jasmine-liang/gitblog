@@ -41,7 +41,7 @@ Notice that `onCreate()` gets a Bundle each time it is called. When your activit
 
 ---
 
-Notes about Fragement:        
+## Notes about Fragement:        
 Ref: 
 - [Fragments and the Navigation Component](https://developer.android.com/codelabs/basic-android-kotlin-training-fragments-navigation-component?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-kotlin-unit-3-pathway-2%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-training-fragments-navigation-component#2)
 -[Pass data between destinations  |  Android Developers](https://developer.android.com/guide/navigation/navigation-pass-data) 
