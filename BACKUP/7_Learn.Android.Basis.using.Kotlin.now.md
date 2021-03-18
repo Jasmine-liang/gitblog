@@ -88,3 +88,32 @@ Ref: [Store data in ViewModel](https://developer.android.com/codelabs/basic-andr
 ### LiveData observers and binding expressions
 - LiveData is an observable data holder class that is lifecycle-aware.
 
+
+
+---
+
+### Update: I finished the Cupcake app in the Advanced Navigation codelab😁 [Cupcake App](https://github.com/Jasmine-liang/Android-basis#cupcake-app)
+### ViewModel best practices
+In a **ViewModel**, it is a recommended practice to not expose view model data as **public** variables. Otherwise the app data can be modified in unexpected ways by the external classes and create edge cases your app didn't expect to handle. Instead, make these mutable properties **private**, implement a **backing property**, and expose a public immutable version of each property, if needed. The convention is to prefix the name of the private mutable properties with an underscore (_).
+### Apply scope function
+apply is a scope function in the Kotlin standard library. It executes a block of code within the context of an object. It forms a temporary scope, and in that scope, you can access the object without its name. The common use case for apply is to configure an object. Such calls can be read as "apply the following assignments to the object."
+```kotlin
+clark.apply {
+    firstName = "Clark"
+    lastName = "James"
+    age = 18
+}
+
+// The equivalent code without apply scope function would look like the following.
+
+clark.firstName = "Clark"
+clark.lastName = "James"
+clark.age = 18
+```
+### Navigation and the back stack
+- Android keeps a back stack of all the destinations you've visited, with each new destination being pushed onto the stack.
+- By tapping the **Up** or **Back** button, you can pop destinations off the back stack.
+Using the **Jetpack Navigation component** helps you push and pop fragment destinations off the back stack, so that the default Back button behavior comes for free.
+- Specify the `app:popUpTo` attribute on an action in the navigation graph, in order to pop destinations off the back stack until the specified one in the attribute value.
+- Specify `app:popUpToInclusive="true" `on an action when the destination specified in` app:popUpTo` should also be popped off the back stack.
+- Use a `plurals `resource if you want to use different string resources based on quantity, such as the singular or plural case.
