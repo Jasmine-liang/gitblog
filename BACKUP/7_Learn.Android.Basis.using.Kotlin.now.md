@@ -49,3 +49,41 @@ Ref:
 
 😃Also I just finished the example app called Word App: [Word App](https://github.com/Jasmine-liang/Android-basis#word-app)
 😆 Now moving to **_Learn how to use Android Jetpack Architecture components_**  ->  Unscramble App 
+
+---
+
+## Notes about ViewModel
+### delegate class
+- provides getter and setter functions of the property and handles its changes.
+- Property delegation in Kotlin helps you to handoff the getter-setter responsibility to a different class
+
+
+A delegate property is defined using the by clause and a delegate class instance:
+```kotlin
+var <property-name> : <property-type> by <delegate-class>()
+
+```
+In the Unscramble App:
+```kotlin
+private val viewModel: GameViewModel by viewModels()
+```
+use the property delegate approach and delegate the responsibility of the `viewModel `object to a separate class called viewModels. That means when you access the viewModel object, it is handled internally by the delegate class, viewModels. The delegate class creates the `viewModel `object for you on the first access, and retains its value through configuration changes and returns the value when requested.
+### backing property
+A backing property allows you to return something from a getter other than the exact object.
+```kotlin
+// Declare private mutable variable that can only be modified
+// within the class it is declared.
+private var _count = 0 
+
+// Declare another public immutable field and override its getter method. 
+// Return the private property's value in the getter method.
+// When count is accessed, the get() function is called and
+// the value of _count is returned. 
+val count: Int
+   get() = _count
+   
+```
+Ref: [Store data in ViewModel](https://developer.android.com/codelabs/basic-android-kotlin-training-viewmodel?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-kotlin-unit-3-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-training-viewmodel#14)
+### LiveData observers and binding expressions
+- LiveData is an observable data holder class that is lifecycle-aware.
+
