@@ -53,6 +53,7 @@ Ref:
 ---
 
 ## Notes about ViewModel
+### 👋🏻Update: I finished the Unscramble app, it was so much fun buiding it! [unscramble-app](https://github.com/Jasmine-liang/Android-basis#unscramble-app)
 ### delegate class
 - provides getter and setter functions of the property and handles its changes.
 - Property delegation in Kotlin helps you to handoff the getter-setter responsibility to a different class
