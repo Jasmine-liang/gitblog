@@ -117,3 +117,24 @@ Using the **Jetpack Navigation component** helps you push and pop fragment desti
 - Specify the `app:popUpTo` attribute on an action in the navigation graph, in order to pop destinations off the back stack until the specified one in the attribute value.
 - Specify `app:popUpToInclusive="true" `on an action when the destination specified in` app:popUpTo` should also be popped off the back stack.
 - Use a `plurals `resource if you want to use different string resources based on quantity, such as the singular or plural case.
+
+---
+
+## Now learning about **Room** and **RecycleView**
+### Room
+- Room is a database library that's part of Android Jetpack. Under the hood, the Room library is an abstraction layer on top of a SQLite database
+- Room does all the hard work to get from Kotlin data classes to entities that can be stored in SQLite tables, and from function declarations to SQL queries.      
+- @Volatile. The value of a volatile variable will never be cached, and all writes and reads will be done to and from the main memory.
+### coroutine
+- Kotlin coroutines let you convert callback-based code to sequential code. Code written sequentially is typically easier to read and maintain. 
+
+
+I like the this example about **asynchronous**
+
+> let's say you have a question that requires research, and you politely request to ask a colleague to find the answer. Your colleague then starts to work on it by themselves. You can continue to do other unrelated work that doesn't depend on the answer until your colleague returns with an answer. In this example, your colleague is doing the work asynchronously "on a separate thread".
+
+### Transformations
+- Use a Transformations map to create a string from a LiveData object every time the object changes.
+### CDATA
+CDATA means that the data in between these strings includes data that could be interpreted as XML markup, but should not be.
+I also learned that `TextView `can render html: [HtmlCompat](https://developer.android.com/reference/androidx/core/text/HtmlCompat). And the return at lables: [Returns and jumps—Kotlin](https://kotlinlang.org/docs/returns.html#return-at-labels)
