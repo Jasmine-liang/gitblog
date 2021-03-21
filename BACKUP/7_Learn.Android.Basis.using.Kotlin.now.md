@@ -138,3 +138,18 @@ I like the this example about **asynchronous**
 ### CDATA
 CDATA means that the data in between these strings includes data that could be interpreted as XML markup, but should not be.
 I also learned that `TextView `can render html: [HtmlCompat](https://developer.android.com/reference/androidx/core/text/HtmlCompat). And the return at lables: [Returns and jumps—Kotlin](https://kotlinlang.org/docs/returns.html#return-at-labels)
+
+---
+
+## RecycleView
+- RecyclerViewDiffUtilDataBinding: another pattern of RecycleView
+## Network
+### Retrofit
+- Retrofit needs at least two things available to it to build a web services API: the base URI for the web service, and a converter factory.
+- The Moshi library is an Android JSON parser that converts a JSON string into Kotlin objects. Retrofit has a converter that works with Moshi.
+### Displaying a photo from a web URL -> Use Glide
+ The image has to be downloaded, internally stored, and decoded from its compressed format to an image that Android can use. The image should be cached to an in-memory cache, a storage-based cache, or both. All this has to happen in low-priority background threads so the UI remains responsive.
+## kotlin related
+- lazy instantiation:  "**lazy instantiation**" is when object creation is purposely delayed until you actually need that object to avoid unnecessary computation or use of other computing resources.
+- A sealed class defines a closed type, which means that all subclasses of DataItem must be defined in this file. As a result, the number of subclasses is known to the compiler
+- companion objects are singleton objects whose properties and functions are tied to a class but not to the instance of that class — basically like the “static” keyword in Java but with a twist.
