@@ -153,3 +153,15 @@ I also learned that `TextView `can render html: [HtmlCompat](https://developer.a
 - lazy instantiation:  "**lazy instantiation**" is when object creation is purposely delayed until you actually need that object to avoid unnecessary computation or use of other computing resources.
 - A sealed class defines a closed type, which means that all subclasses of DataItem must be defined in this file. As a result, the number of subclasses is known to the compiler
 - companion objects are singleton objects whose properties and functions are tied to a class but not to the instance of that class — basically like the “static” keyword in Java but with a twist.
+
+
+---
+
+## Repository
+- A repository class isolates data sources, such as Room database and web services, from the rest of the app. The repository class provides a clean API for data access to the rest of the app.
+- When you design an offline cache, it's a best practice to separate the app's network, domain, and database objects. This strategy is an example of separation of concerns.
+## WorkManager
+- WorkManager is an API that makes it easy to schedule deferrable, asynchronous tasks that are expected to run even if the app exits or the device restarts
+## Kotlin
+### Extension Function
+- An extension function allows you to extend a classes functionality without needing to edit (or have access to) the class itself. They are great for libraries whose classes you can’t access.
