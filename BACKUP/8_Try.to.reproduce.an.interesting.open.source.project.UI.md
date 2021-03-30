@@ -1,6 +1,6 @@
 # [Try to reproduce an interesting open source project UI](https://github.com/Jasmine-liang/gitblog/issues/8)
 
-It's a beautiful UI displaying a classical Chinese poetry, I wrote it just by adding TextView programmatically😅. It still needs some improvements in terms of UI, and I'll add more features to it soon :)         
+It's a beautiful UI displaying a classical Chinese poetry, I wrote it just by adding TextView programmatically so a poem can be arranged vertically😅. It still needs some improvements in terms of UI, and I'll add more features to it soon :)         
 The elegant open source app: [A Full-Stack mobile app, including Android & Server, Simple-Poem 简诗. You can write poem in graceful & traditional Chinese style.](https://github.com/wingjay/jianshi)
 
 ----
