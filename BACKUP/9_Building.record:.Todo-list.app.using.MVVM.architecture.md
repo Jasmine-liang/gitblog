@@ -11,3 +11,13 @@
 ### Additional knowledge
 - ellipsize: [What does ellipsize mean in android?](https://stackoverflow.com/questions/13313996/what-does-ellipsize-mean-in-android/13314069)
 - tool-attributes: [Tools attributes reference](https://developer.android.com/studio/write/tool-attributes.html)  tldr: `tools:text ` means the text won't be generated into APK
+
+---
+
+## Day 2
+## Room with ViewModel, Coordinate example
+Reference:
+- [Android Kotlin Fundamentals: 6.2 Coroutines and Room](https://developer.android.com/codelabs/kotlin-android-training-coroutines-and-room#3)
+- [Android Room with a View - Kotlin](https://developer.android.com/codelabs/android-room-with-a-view-kotlin?index=..%2F..index#0)
+## Dagger codelab
+- [Using Dagger in your Android app - Kotlin](https://developer.android.com/codelabs/android-dagger#8)
