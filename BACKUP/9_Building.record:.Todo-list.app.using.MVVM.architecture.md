@@ -21,3 +21,17 @@ Reference:
 - [Android Room with a View - Kotlin](https://developer.android.com/codelabs/android-room-with-a-view-kotlin?index=..%2F..index#0)
 ## Dagger codelab
 - [Using Dagger in your Android app - Kotlin](https://developer.android.com/codelabs/android-dagger#8)
+
+---
+
+## Day 3
+### Add a Callback when the database object is initialized
+There are two ways of adding a Callback:     
+- one is adding it in `.addCallback( obejct : RoomDatabase.Callback(){// implementation})`
+- one is adding it in Database class as a **nested** class 
+### Add a Search Feature
+Here are some refs that helps to understand some related code:
+- [inline, noinline, crossinline — What do they mean? | by Ben Daniel A. | AndroidPub | Medium](https://medium.com/android-news/inline-noinline-crossinline-what-do-they-mean-b13f48e113c2)
+- [Higher-Order Functions](https://play.kotlinlang.org/byExample/04_functional/01_Higher-Order%20Functions)
+### Problem solved:
+[android - RecycleView displaying only the first item - Stack Overflow](https://stackoverflow.com/questions/35906652/recycleview-displaying-only-the-first-item)
