@@ -35,3 +35,13 @@ Here are some refs that helps to understand some related code:
 - [Higher-Order Functions](https://play.kotlinlang.org/byExample/04_functional/01_Higher-Order%20Functions)
 ### Problem solved:
 [android - RecycleView displaying only the first item - Stack Overflow](https://stackoverflow.com/questions/35906652/recycleview-displaying-only-the-first-item)
+
+---
+
+## Day 4
+### Room vs DataStore, Why use DataSource for Menu ？
+If you have a need for partial updates, referential integrity, or large/complex datasets, you should consider using Room instead of DataStore. DataStore is ideal for small or simple datasets and does not support partial updates or referential integrity.
+### Preference
+Preference DataStore, like SharedPreferences, accesses data based on keys, without defining a schema upfront.
+- Codelab ref: [Working with Preferences DataStore](https://developer.android.com/codelabs/android-preferences-datastore#5)
+- [Data and file storage overview  |  Android Developers](https://developer.android.com/training/data-storage#pref)
