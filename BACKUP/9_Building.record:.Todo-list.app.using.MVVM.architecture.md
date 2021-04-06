@@ -45,3 +45,11 @@ If you have a need for partial updates, referential integrity, or large/complex 
 Preference DataStore, like SharedPreferences, accesses data based on keys, without defining a schema upfront.
 - Codelab ref: [Working with Preferences DataStore](https://developer.android.com/codelabs/android-preferences-datastore#5)
 - [Data and file storage overview  |  Android Developers](https://developer.android.com/training/data-storage#pref)
+
+---
+
+## Day5 (Updating checked Tasks)
+- First make some changes to Adapter where we catch the **Click** action on a single item
+- Then we send this click to Fragment
+### Better way to handle onClickListener in RecycleView
+- [A Better Way to Handle Click Action in a RecyclerVIew Item. | OOZOU](https://oozou.com/blog/a-better-way-to-handle-click-action-in-a-recyclerview-item-60)
