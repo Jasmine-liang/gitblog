@@ -48,7 +48,7 @@ Preference DataStore, like SharedPreferences, accesses data based on keys, witho
 
 ---
 
-## Day5 (Updating checked Tasks)
+## Day 5 (Updating checked Tasks)
 - First make some changes to Adapter where we catch the **Click** action on a single item
 - Then we send this click to Fragment
 ### Better way to handle onClickListener in RecycleView
