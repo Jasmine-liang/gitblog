@@ -53,3 +53,8 @@ Preference DataStore, like SharedPreferences, accesses data based on keys, witho
 - Then we send this click to Fragment
 ### Better way to handle onClickListener in RecycleView
 - [A Better Way to Handle Click Action in a RecyclerVIew Item. | OOZOU](https://oozou.com/blog/a-better-way-to-handle-click-action-in-a-recyclerview-item-60)
+
+---
+
+## Day 6(Adding Swipe-Delete-And-Undo)
+I followed this article [Step by Step: RecyclerView Swipe to Delete and Undo](https://medium.com/@zackcosborn/step-by-step-recyclerview-swipe-to-delete-and-undo-7bbae1fce27e), and learned how to implemented a custom UI for _Swipe-Delete_ feature, this article also helps: [Android RecyclerView Swipe To Delete And Undo](https://www.journaldev.com/23164/android-recyclerview-swipe-to-delete-undo)
