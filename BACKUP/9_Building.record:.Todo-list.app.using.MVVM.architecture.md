@@ -59,3 +59,13 @@ Preference DataStore, like SharedPreferences, accesses data based on keys, witho
 ## Day 6 (Add Swipe-Delete-And-Undo)
 I followed this article [Step by Step: RecyclerView Swipe to Delete and Undo](https://medium.com/@zackcosborn/step-by-step-recyclerview-swipe-to-delete-and-undo-7bbae1fce27e), and learned how to implemented a custom UI for _Swipe-Delete_ feature, this article also helps: [Android RecyclerView Swipe To Delete And Undo](https://www.journaldev.com/23164/android-recyclerview-swipe-to-delete-undo)         
 Also learned some insights about _SingleLiveEvent_: [Android SingleLiveEvent Redux with Kotlin Flow | by Michael Ferguson | ProAndroidDev](https://proandroiddev.com/android-singleliveevent-redux-with-kotlin-flow-b755c70bb055)
+
+
+---
+
+## Day 7 (Navigate between fragments)
+### Use Safe Args to pass data between fragments
+- Here we pass `task` object between `TaskFragment` and `Add/EditTaskFragment`, ref: [Pass data between destinations  |  Android Developers](https://developer.android.com/guide/navigation/navigation-pass-data)
+### Use `SavedStateHandle` to restore UI state when app’s process being stopped 
+The scenario usually is: while you editing a task, you receive a phone call and leave the app in the background. We want what you just edited stays the same when you come back to the app. So you don't need to type it again:)       
+Ref: [ViewModels: Persistence, onSaveInstanceState(), Restoring UI State and Loaders | Android Developers](https://medium.com/androiddevelopers/viewmodels-persistence-onsaveinstancestate-restoring-ui-state-and-loaders-fc7cc4a6c090)
