@@ -48,7 +48,7 @@ Preference DataStore, like SharedPreferences, accesses data based on keys, witho
 
 ---
 
-## Day 5 (Updating checked Tasks)
+## Day 5 (Update checked Tasks)
 - First make some changes to Adapter where we catch the **Click** action on a single item
 - Then we send this click to Fragment
 ### Better way to handle onClickListener in RecycleView
@@ -56,6 +56,6 @@ Preference DataStore, like SharedPreferences, accesses data based on keys, witho
 
 ---
 
-## Day 6 (Adding Swipe-Delete-And-Undo)
+## Day 6 (Add Swipe-Delete-And-Undo)
 I followed this article [Step by Step: RecyclerView Swipe to Delete and Undo](https://medium.com/@zackcosborn/step-by-step-recyclerview-swipe-to-delete-and-undo-7bbae1fce27e), and learned how to implemented a custom UI for _Swipe-Delete_ feature, this article also helps: [Android RecyclerView Swipe To Delete And Undo](https://www.journaldev.com/23164/android-recyclerview-swipe-to-delete-undo)         
 Also learned some insights about _SingleLiveEvent_: [Android SingleLiveEvent Redux with Kotlin Flow | by Michael Ferguson | ProAndroidDev](https://proandroiddev.com/android-singleliveevent-redux-with-kotlin-flow-b755c70bb055)
