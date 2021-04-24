@@ -7,8 +7,9 @@
 ---
 
 ## Challenge from _Android Programming: The Big Nerd Ranch Guild, 4th Edition_
+Show also icons in RecyclerView.
 ### Chapter 23
-Steps to consider:
+Steps to consider to make a laucher:
 - Find launchable activities which are simply activities with intent filters that include a **MAIN** `action `and a **LAUNCHER** `category`
 - Create an implicit intent and get a list of activities that match the intent from `PackageManager`
 - Query the activities through **PackageManager.queryIntentActivities** and get a list containing **ResolveInfo**  object, which contains lables, along with other metadata like icon in it
