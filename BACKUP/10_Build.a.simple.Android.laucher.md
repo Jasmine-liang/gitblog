@@ -120,3 +120,44 @@ class MainActivity : AppCompatActivity() {
     }
 }
 ```
+
+---
+
+_**list_of_apps.xml**_
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/app_icon"
+        android:src="@drawable/abc_vector_test"
+        android:layout_width="80dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="80dp"/>
+    <TextView
+        android:id="@+id/app_name"
+        android:text="app"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+```
+---
+_**activity_main.xml**_
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_recycler_view"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"/>
+
+```
