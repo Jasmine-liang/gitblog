@@ -1,6 +1,7 @@
 # [Building record: Todo-list app using MVVM architecture](https://github.com/Jasmine-liang/gitblog/issues/9)
 
 # Show case
+code: [Todolist app](https://github.com/Jasmine-liang/todo-list-app)
 https://user-images.githubusercontent.com/63624438/118086286-48d24a80-b3f6-11eb-80eb-8394bd686de8.mp4
 ## Day 1
 ### Why Coordianate Layout?
